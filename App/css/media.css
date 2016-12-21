@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+	
+	body .book_content .book_page .page_title{
+		font-size: 33px;
+	}
+
+	body .guide{
+		margin-top: 0;
+	}
+
+	body .book_page .reg_code{
+		font-size: 18px;
+		padding: 10px 20px;
+	}
+
+	body .guide_text li{
+		padding: 0 10px;
+	}
+
+	body .guide_text li:last-child{
+		padding-right: 15px;
+	}
+
+	body .mnu_top{
+		padding: 0 15px;
+	}
+
+}
