@@ -7,6 +7,12 @@
 	box-sizing: border-box;
 }
 
+a{
+	font-size: 17px;
+	text-decoration: underline;
+	color: #66d4ff;
+}
+
 body{
 
 	font-family: 'Roboto', sans-serif;
@@ -483,3 +489,90 @@ body{
 	transform: rotate(180deg);
 	cursor: pointer;
 }
+
+.prize_title{
+	text-align: center;
+	color: #fff;
+	font-size: 28px;
+	font-family: "Roboto Condensed",sans-serif;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.prize_wrap{
+	text-align: center;
+}
+
+.fst_prize{
+	text-align: center;
+	display: inline-block;
+}
+
+.fst_prize img{
+	display: inline-block;
+	width: 50%;
+}
+
+.fst_prize:before{
+	content: "";
+	width: 53px;
+	height: 95px;
+	display: inline-block;
+	background-image: url(../img/prize_ar.png);
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	margin-right: 20px;
+}
+
+.fst_prize:after{
+	content: "";
+	width: 53px;
+	height: 95px;
+	display: inline-block;
+	background-image: url(../img/prize_ar_reverce.png);
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	margin-left: 20px;
+}
+
+.scnd_prize{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.scnd_prize img{
+	display: inline-block;
+	width: 25%;
+	margin: 0 5%;
+}
+
+.prize_text .text{
+	width: 25%;
+	display: inline-block;
+	margin: 0 5%;
+	vertical-align: top;
+	color: #fff;
+	font-family: "Roboto Condensed";
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.page_4 .wrap_btn{
+	text-align: center;
+}
+
+.page_4 .full_rules{
+	margin-top: 0;
+}
+
+.prize_content{
+	text-align: center;
+	color: #fff;
+	font-family: "Roboto Condensed",sans-serif;
+	font-weight: 300;
+}
+
+.prize_content .disk{
+	margin-top: 15px;
+}	
